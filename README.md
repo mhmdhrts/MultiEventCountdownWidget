@@ -3,12 +3,13 @@
 A Rainmeter skin that displays countdowns to multiple daily events based on a CSV schedule.
 
 ![Preview](preview.gif)
+![Preview2](preview2.gif)
 
 ## Features
 
 - Displays up to 5 concurrent event countdowns
-- Automatically updates to the next day's events when all current events have passed
-- Highly customizable through the CSV file
+- Automatically updates to the next day's events
+- Customizable through the CSV file
 - Clean, modern display with configurable fonts and colors
 - Real-time updates every second
 - Supports events spanning multiple days
@@ -54,6 +55,8 @@ The widget will automatically find the next occurrence of each event type. For e
 
 Edit variables in `MultiEventCountdownWidget.ini`:
 
+- `Scale`: This is if you want to just scale the whole thing proportionally
+
 - `FontColour`: Text color (R,G,B,A)
 - `FontSize`: Size of the countdown text
 - `FontFace`: Font family (currently set to "rubik")
@@ -94,4 +97,4 @@ Key features of the implementation:
 
 GNU General Public License v3.0
 
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE.txt) file for details.
