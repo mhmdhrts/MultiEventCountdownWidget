@@ -3,6 +3,7 @@
 A Rainmeter skin that displays countdowns to multiple daily events based on a CSV schedule.
 
 ![Preview](preview.gif)
+
 ![Preview2](preview2.gif)
 
 ## Features
